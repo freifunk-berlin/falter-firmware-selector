@@ -85,7 +85,7 @@ header {
   box-shadow: 0em 0.125em 0.25em -0.06em rgba(0, 0, 0, 0.2),
     0em 0.25em 0.3em 0em rgba(0, 0, 0, 0.14),
     0em 0.06em 0.625em 0em rgba(0, 0, 0, 0.12);
-  background-color: #00a3e1;
+  background-color: #dc0067;
 }
 
 h6 {
@@ -154,7 +154,7 @@ header > div {
 #languages select {
   color: #fff;
   font-size: inherit;
-  background-color: #1084b2;
+  background-color: #ffb400;
   border-radius: 0.25em;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
   font-family: "Open Sans", sans-serif;
@@ -186,11 +186,11 @@ header > div {
     0em 0.125em 0.125em 0em rgba(0, 0, 0, 0.14),
     0em 0.19em 0.06em -0.125em rgba(0, 0, 0, 0.12);
   color: #fff;
-  background-color: #00a3e1;
+  background-color: #ffb400;
 }
 
-.download-link-hover {
-  background-color: #038fc6;
+.download-link:hover {
+  background-color: #fac446;
 }
 
 .download-link :first-child {
