@@ -3,8 +3,8 @@
 var translations = {
   ca: {
     "tr-load":
-      "Descarregueu el microprogramari OpenWrt per al vostre dispositiu",
-    "tr-title": "Selector de microprogramari OpenWrt",
+      "Descarregueu el microprogramari Freifunk per al vostre dispositiu",
+    "tr-title": "Selector de microprogramari Freifunk",
     "tr-message":
       'Introduïu el nom o el model del vostre dispositiu i seleccioneu la versió estable (per defecte) o la darrera imatge compilada ("snapshot")',
     "tr-version-build": "Compilació",
@@ -18,9 +18,9 @@ var translations = {
     "tr-downloads": "Descàrregues",
     "tr-custom-downloads": "Descàrregues personalitzades",
     "tr-factory-help":
-      'Empreu la imatge "factory" per instal·lar OpenWrt a un dispositius per primera vegada. Normalment ho podreu fer través de la interfície web del microprogramari original.',
+      'Empreu la imatge "factory" per instal·lar Freifunk a un dispositius per primera vegada. Normalment ho podreu fer través de la interfície web del microprogramari original.',
     "tr-sysupgrade-help":
-      'Empreu la imatge "sysupgrade" per actualitzar un dispositiu que ja tingui OpenWrt instal·lat. La imatge es pot instal·lar a través de la interfície web LuCI o del terminal.',
+      'Empreu la imatge "sysupgrade" per actualitzar un dispositiu que ja tingui Freifunk instal·lat. La imatge es pot instal·lar a través de la interfície web LuCI o del terminal.',
     "tr-kernel-help": "El nucli de Linux en una imatge separada.",
     "tr-rootfs-help": "El sistema de fitxers arrel en una imatge separada.",
     "tr-sdcard-help": "Una imatge feta per escriure-la a una targeta SD.",
@@ -36,8 +36,8 @@ var translations = {
     "tr-feedback-link": "Feedback",
     "tr-server-link": "All Files",
     "tr-notfound": "No model found!",
-    "tr-load": "Download OpenWrt Firmware for your Device",
-    "tr-title": "OpenWrt Firmware Selector",
+    "tr-load": "Download Freifunk Firmware for your Device",
+    "tr-title": "Freifunk Firmware Selector",
     "tr-message":
       "Type the name or model of your device, then select the recommended build or some other.",
     "tr-version-build": "About this build",
@@ -51,9 +51,9 @@ var translations = {
     "tr-downloads": "Download an image",
     "tr-custom-downloads": "Custom Downloads",
     "tr-factory-help":
-      "Use a Factory image to flash a router with OpenWrt for the first time. You normally do this via the web interface of the original firmware.",
+      "Use a Factory image to flash a router with Freifunk for the first time. You normally do this via the web interface of the original firmware.",
     "tr-sysupgrade-help":
-      "Use a Sysupgrade image to update a router that already runs OpenWrt. The image can be used with the LuCI web interface or the terminal.",
+      "Use a Sysupgrade image to update a router that already runs Freifunk. The image can be used with the LuCI web interface or the terminal.",
     "tr-kernel-help": "Linux kernel as a separate image.",
     "tr-initramfs-help":
       "Linux kernel with minimal file system. Useful for first installation or recovery.",
@@ -69,8 +69,8 @@ var translations = {
   },
   es: {
     "tr-notfound": "¡Modelo no encontrado!",
-    "tr-load": "Descargue el firmware OpenWrt para su dispositivo",
-    "tr-title": "Selector de firmware OpenWrt",
+    "tr-load": "Descargue el firmware Freifunk para su dispositivo",
+    "tr-title": "Selector de firmware Freifunk",
     "tr-message":
       "Escriba el nombre o modelo de su dispositivo, luego seleccione la versión recomendada o alguna otra.",
     "tr-version-build": "Acerca de esta compilación",
@@ -84,9 +84,9 @@ var translations = {
     "tr-downloads": "Descargar una imagen",
     "tr-custom-downloads": "Descargas personalizadas",
     "tr-factory-help":
-      "Utilice una imagen factory para instalar OpenWrt en un enrutador por primera vez. Normalmente se hace a través de la interfaz web del firmware original.",
+      "Utilice una imagen factory para instalar Freifunk en un enrutador por primera vez. Normalmente se hace a través de la interfaz web del firmware original.",
     "tr-sysupgrade-help":
-      "Utilice una imagen sysupgrade para actualizar un enrutador que ya ejecuta OpenWrt. La imagen se puede utilizar con la interfaz web de LuCI o el terminal.",
+      "Utilice una imagen sysupgrade para actualizar un enrutador que ya ejecuta Freifunk. La imagen se puede utilizar con la interfaz web de LuCI o el terminal.",
     "tr-kernel-help": "Kernel de Linux como una imagen separada.",
     "tr-rootfs-help": "Sistema de archivos raíz como una imagen separada.",
     "tr-sdcard-help": "Imagen destinada a flashear en una tarjeta SD.",
@@ -99,8 +99,8 @@ var translations = {
     "tr-check-again": "Vuelva a comprobar en 5 segundos...",
   },
   no: {
-    "tr-load": "Last ned OpenWrt fastvare for din enhet!",
-    "tr-title": "OpenWrt fastvare utvelger",
+    "tr-load": "Last ned Freifunk fastvare for din enhet!",
+    "tr-title": "Freifunk fastvare utvelger",
     "tr-message":
       "Bruk feltene nedenfor for å laste ned fastvare til enheten din!",
     "tr-version-build": "Sammensetning",
@@ -114,9 +114,9 @@ var translations = {
     "tr-downloads": "Nedlastninger",
     "tr-custom-downloads": "Tilpassede nedlastninger",
     "tr-factory-help":
-      "Factory avbildningen er for å laste rutere med OpenWrt første gang. Vanligvis via webgrensesnittet til den originale fastvaren.",
+      "Factory avbildningen er for å laste rutere med Freifunk første gang. Vanligvis via webgrensesnittet til den originale fastvaren.",
     "tr-sysupgrade-help":
-      "Sysupgrade avbildningen er for rutere som allerede benytter OpenWrt. Avbildningen innstaleres gjennom webgrensesnittet eller terminalen.",
+      "Sysupgrade avbildningen er for rutere som allerede benytter Freifunk. Avbildningen innstaleres gjennom webgrensesnittet eller terminalen.",
     "tr-kernel-help": "Linux kjernen som en egen avbildning.",
     "tr-rootfs-help": "Rotfilsystem som en egen avbildning.",
     "tr-sdcard-help": "Avbildning som er ment for et SD-kort.",
@@ -132,8 +132,8 @@ var translations = {
     "tr-feedback-link": "Feedback",
     "tr-server-link": "Alle Dateien",
     "tr-notfound": "Kein Model gefunden!",
-    "tr-load": "Lade die OpenWrt Firmware für dein Gerät!",
-    "tr-title": "OpenWrt Firmware Selector",
+    "tr-load": "Lade die Freifunk Firmware für dein Gerät!",
+    "tr-title": "Freifunk Firmware Selector",
     "tr-message":
       "Bitte benutze die Eingabe um die passende Firmware zu finden!",
     "tr-version-build": "Release Build",
@@ -149,7 +149,7 @@ var translations = {
     "tr-factory-help":
       "Factory Abbilder werden über die Weboberfläche der originalen Firmware eingespielt.",
     "tr-sysupgrade-help":
-      "Sysupgrade Abbilder werden für Geräte verwendet, die bereits OpenWrt laufen haben. Es ist möglich, existierende Einstellungen beizubehalten.",
+      "Sysupgrade Abbilder werden für Geräte verwendet, die bereits Freifunk laufen haben. Es ist möglich, existierende Einstellungen beizubehalten.",
     "tr-kernel-help": "Linux Kernel als separates Abbild.",
     "tr-rootfs-help": "Das Root Dateisystem als separates Abbild.",
     "tr-initramfs-help":
@@ -164,7 +164,7 @@ var translations = {
     "tr-check-again": "Nochmal nachfragen in 5 Sekunden...",
   },
   fr: {
-    "tr-load": "Télécharger le firmware OpenWrt de votre périphérique !",
+    "tr-load": "Télécharger le firmware Freifunk de votre périphérique !",
     "tr-title": "Sélecteur de Firmware",
     "tr-message":
       "Utiliser les entrées ci-dessous pour télécharger le firmware de votre périphérique !",
@@ -179,9 +179,9 @@ var translations = {
     "tr-downloads": "Téléchargements",
     "tr-custom-downloads": "Téléchargements Personnalusés",
     "tr-factory-help":
-      "Les images Factory sont prévues pour flasher les routers avec OpenWrt pour la première fois. Habituellement à partir de l'interface web du firmware d'origine.",
+      "Les images Factory sont prévues pour flasher les routers avec Freifunk pour la première fois. Habituellement à partir de l'interface web du firmware d'origine.",
     "tr-sysupgrade-help":
-      "Les images Sysupgrade sont prévues pour flasher les routers fonctionnant déjà avec OpenWrt. L'image peut être installée à travers l'interface web ou par le terminal.",
+      "Les images Sysupgrade sont prévues pour flasher les routers fonctionnant déjà avec Freifunk. L'image peut être installée à travers l'interface web ou par le terminal.",
     "tr-kernel-help": "Linux kernel comme image séparée.",
     "tr-rootfs-help": "Root file system comme image séparée.",
     "tr-sdcard-help": "Image prévue pour être flashée sur une carte SD.",
@@ -194,8 +194,8 @@ var translations = {
     "tr-check-again": "Essayer à nouveau dans 5 secondes...",
   },
   it: {
-    "tr-load": "Scarica il firmware OpenWrt per il tuo dispositivo!",
-    "tr-title": "OpenWrt Firmware Selector",
+    "tr-load": "Scarica il firmware Freifunk per il tuo dispositivo!",
+    "tr-title": "Freifunk Firmware Selector",
     "tr-message":
       "Usa la casella sottostante per scaricare il firmware per il tuo dispositivo!",
     "tr-version-build": "Build",
@@ -209,9 +209,9 @@ var translations = {
     "tr-downloads": "Downloads",
     "tr-custom-downloads": "Download Personalizzati",
     "tr-factory-help":
-      "Factory Image sono usate per installare OpenWrt su router per la prima volta. Di solito l'immagine può essere applicata via l'interfaccia web del firmware originale.",
+      "Factory Image sono usate per installare Freifunk su router per la prima volta. Di solito l'immagine può essere applicata via l'interfaccia web del firmware originale.",
     "tr-sysupgrade-help":
-      "Sysupgrade Image sono usate per flashare router in cui OpenWrt è già installato. L'immagine può essere applicata via interfaccia web o terminale.",
+      "Sysupgrade Image sono usate per flashare router in cui Freifunk è già installato. L'immagine può essere applicata via interfaccia web o terminale.",
     "tr-kernel-help": "Linux kernel come immagine separata.",
     "tr-rootfs-help": "Root file system come immagine separata.",
     "tr-sdcard-help": "Immagine da flashare su scheda SD-Card separata.",
@@ -226,8 +226,8 @@ var translations = {
   pl: {
     "tr-server-link": "Pliki",
     "tr-notfound": "Nie znaleziono modelu!",
-    "tr-load": "Pobieranie oprogramowania OpenWrt",
-    "tr-title": "OpenWrt Firmware Selector",
+    "tr-load": "Pobieranie oprogramowania Freifunk!",
+    "tr-title": "Freifunk Firmware Selector",
     "tr-message":
       "Wprowadź nazwę lub model swojego urządzenia, a następnie wybierz wersję zalecaną lub inną.",
     "tr-version-build": "Informacje o obrazie",
@@ -241,9 +241,9 @@ var translations = {
     "tr-downloads": "Obrazy do pobrania",
     "tr-custom-downloads": "Zmodyfikowane obrazy do pobrania",
     "tr-factory-help":
-      "Użyj obrazu factory do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
+      "Użyj obrazu factory do pierwszej instalacji Freifunk. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
     "tr-sysupgrade-help":
-      "Użyj obrazu sysupgrade do aktualizacji routera z zainstalowanym już OpenWrt. Obraz można użyć przez interfejs graficzny LuCI lub konsolę.",
+      "Użyj obrazu sysupgrade do aktualizacji routera z zainstalowanym już Freifunk. Obraz można użyć przez interfejs graficzny LuCI lub konsolę.",
     "tr-kernel-help": "Osobny obraz z kernelem linuksowym.",
     "tr-rootfs-help": "Osobny obraz z systemem plików.",
     "tr-initramfs-help":
@@ -258,8 +258,8 @@ var translations = {
     "tr-check-again": "Sprawdź ponownie za 5 sekund...",
   },
   tr: {
-    "tr-load": "Cihazınız için OpenWrt yazılımını indirin!",
-    "tr-title": "OpenWrt Yazılım Seçicisi",
+    "tr-load": "Cihazınız için Freifunk yazılımını indirin!",
+    "tr-title": "Freifunk Yazılım Seçicisi",
     "tr-message":
       'Cihazınızın adını/modelini girin, ardından Stabil sürümü(varsayılan) veya nightly "snapshot" imajini seçin.',
     "tr-version-build": "Sürüm",
@@ -273,9 +273,9 @@ var translations = {
     "tr-downloads": "İndirmeler",
     "tr-custom-downloads": "Özel İndirmeler",
     "tr-factory-help":
-      "Bir yönlendiriciyi OpenWrt ile ilk kez flashlamak için bir Fabrika imaji kullanın. Bu normalde orijinal aygıt yazılımının web arayüzü aracılığıyla yapılır.",
+      "Bir yönlendiriciyi Freifunk ile ilk kez flashlamak için bir Fabrika imaji kullanın. Bu normalde orijinal aygıt yazılımının web arayüzü aracılığıyla yapılır.",
     "tr-sysupgrade-help":
-      "Zaten OpenWrt çalıştıran bir yönlendiriciyi güncellemek için bir Sysupgrade imajı kullanın. Imaj, LuCI web arayüzü veya terminal ile kullanılabilir.",
+      "Zaten Freifunk çalıştıran bir yönlendiriciyi güncellemek için bir Sysupgrade imajı kullanın. Imaj, LuCI web arayüzü veya terminal ile kullanılabilir.",
     "tr-kernel-help": "Linux kernel ayrı bir imaj olarak.",
     "tr-rootfs-help": "Kök Dosya Sistemi ayrı bir imaj olarak.",
     "tr-sdcard-help": "SD-Kart 'a kurulması planlanan imaj",
