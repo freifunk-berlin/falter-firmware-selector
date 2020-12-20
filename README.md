@@ -1,4 +1,21 @@
-# OpenWrt Firmware Selector
+# Falter Firmware Selector
+
+This repo holds the firmware selector for the Freifunk Berlin Firmware. Its pretty much the same as the OpenWrt firmware selector from mwarning42, except for some minor cosmetic adjustments to get a Freifunk look and feel.
+
+## Fetch Router Profiles with get_profiles_from.py
+
+```
+Usage:
+        ./get_profiles_from [URL]
+
+Please give an URL to the buildbot-dir.
+Example:
+        ./get_profiles_from http://buildbot.berlin.freifunk.net/buildbot/unstable/2020-12-19/
+```
+The script fetches alls the router data from the given link on the buildbot. Then you should mention those profiles in the `config.js` of the Selector by youself. That way, we have control over the version names and can "misuse" the version-name to distinguish between the firmware-types.
+
+
+# OpenWrt Firmware Selector – Original README.md
 
 A simple OpenWrt firmware selector using autocompletion. Uses plain
 HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/openwrt-firmware-selector/www/).
