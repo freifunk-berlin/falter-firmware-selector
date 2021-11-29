@@ -355,9 +355,6 @@ function createExtra(image) {
       (config.show_help
         ? '<div class="help-content ' + getHelpTextClass(image) + '"></div>'
         : "") +
-      (image.sha256
-        ? '<div class="hash-content">sha256sum: ' + image.sha256 + "</div>"
-        : "") +
       "</td>"
   );
 }
