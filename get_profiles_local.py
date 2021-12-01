@@ -46,7 +46,7 @@ for itype in image_types:
     os.mkdir(itype+"www/")
     os.system("touch "+itype+"www/config.js")
     
-    command = "./misc/collect.py  --image-url '"+link+"{target}' "+sys.argv[2]+" "+itype+"www/"
+    command = "./misc/collect.py  --image-url '{}{{target}}' {}{} {}www/".format(link, sys.argv[2], itype, itype)
     os.system(command)
 
     src_dir = [f.path for f in os.scandir(itype+"www/data/") if f.is_dir()][0]
