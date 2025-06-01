@@ -608,16 +608,16 @@ function updateImages(version, mobj) {
         .replace("{version}", mobj.version_number)
     );
 
-    setValue(
-      "#image-link",
-      document.location.href.split("?")[0] +
-        "?version=" +
-        encodeURIComponent(mobj.version_number) +
-        "&target=" +
-        encodeURIComponent(mobj.target) +
-        "&id=" +
-        encodeURIComponent(mobj.id)
-    );
+    // setValue(
+    //   "#image-link",
+    //   document.location.href.split("?")[0] +
+    //     "?version=" +
+    //     encodeURIComponent(mobj.version_number) +
+    //     "&target=" +
+    //     encodeURIComponent(mobj.target) +
+    //     "&id=" +
+    //     encodeURIComponent(mobj.id)
+    // );
 
     mobj.images.sort((a, b) => a.name.localeCompare(b.name));
 
