@@ -149,7 +149,7 @@ header > div {
 
   color: #fff;
   font-size: inherit;
-  background-color: #1084b2;
+  background-color: #ffb400;
   border-radius: 0.25em;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
   font-family: "Open Sans", sans-serif;
@@ -218,7 +218,7 @@ header > div {
     0em 0.125em 0.125em 0em rgba(0, 0, 0, 0.14),
     0em 0.19em 0.06em -0.125em rgba(0, 0, 0, 0.12);
   color: #fff;
-  background-color: #00a3e1;
+  background-color: #ffb400;
   width: max-content;
 }
 
@@ -367,7 +367,7 @@ header > div {
 
 /* light mode */
 header {
-  background-color: #00a3e1;
+  background-color: #dc0067;
 }
 
 body {
@@ -408,7 +408,7 @@ body {
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   header {
-    background-color: #0080b3;
+    background-color: #dc0067;
   }
 
   body {
