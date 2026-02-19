@@ -7,6 +7,7 @@
     "tr-links": "Links",
     "tr-title": "Freifunk Firmware Selector",
     "tr-message": "Type the name or model of your device, then select a stable build or the nightly \"snapshot\" build.",
+    "tr-hint": "Note: When using a newer device, you might need to select a snapshot version. These versions don’t receive auto-updates, so you’ll need to update manually to a stable version later.",
     "tr-version-build": "About this build",
     "tr-custom-build": "Custom Build",
     "tr-customize": "Customize installed packages and/or first boot script",
