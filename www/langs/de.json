@@ -5,6 +5,7 @@
     "tr-load": "Lade die Freifunk-Firmware für dein Gerät herunter",
     "tr-title": "Freifunk Firmware-Auswahl",
     "tr-message": "Bitte benutze die Eingabe um die passende Firmware zu finden.",
+    "tr-hint": "HINWEIS: Wenn du einen neueren Router hast musst du möglicherweise eine Snapshot-Version auswählen. Diese Versionen erhalten keine automatischen Updates, sodass später manuell ein Update auf eine stabile Version ausgeführt werden muss.",
     "tr-version-build": "Release Build",
     "tr-custom-build": "Benutzerdefinierte Erstellung",
     "tr-customize": "Installierte Pakete anpassen und/oder des ersten Boot-Skripts",
